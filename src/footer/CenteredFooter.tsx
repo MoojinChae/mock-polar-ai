@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 
 import { FooterCopyright } from './FooterCopyright';
+import { ContactUsModal } from '../modal/ContactUsModal';
 
 type ICenteredFooterProps = {
   logo: ReactNode;
@@ -12,7 +13,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     {props.logo}
 
     <div className="mt-4 text-lg">
-      hello@mockpolar.ai
+      <ContactUsModal />
     </div>
 
     <div className="mt-4 text-sm">

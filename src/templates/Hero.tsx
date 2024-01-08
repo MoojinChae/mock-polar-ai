@@ -4,7 +4,8 @@ import { Background } from '../background/Background';
 import { HeroTitle } from '../hero/HeroTitle';
 import { Section } from '../layout/Section';
 import { Logo } from './Logo';
-import { Button } from '../button/Button';
+import { NeedMoreDataModal } from '../modal/NeedMoreDataModal';
+
 
 const Hero = () => (
   <Background color="bg-gray-100">
@@ -33,11 +34,12 @@ const Hero = () => (
             Dropdown (or something else) area
         </div>
         <div className="pt-20">
-          <Button xl>Not in here? Please request!</Button>
+          <NeedMoreDataModal />
         </div>
       </div>
     </Section>
   </Background>
-);
+)
+
 
 export { Hero };
