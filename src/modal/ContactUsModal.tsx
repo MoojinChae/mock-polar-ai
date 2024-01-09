@@ -22,7 +22,7 @@ const ContactUsModal = () => {
   const [message, setMessage] = React.useState('');
   const [email, setEmail] = React.useState('');
 
-  const SlackWebhookURL = "https://hooks.slack.com/services/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"
+  const SlackWebhookURL = "https://hooks.slack.com/services/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"
   const handleSubmit = (e: any) => {
     e.preventDefault()
 
