@@ -8,7 +8,13 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { fetchSlack } from '@/utils/slack';
 
-const NeedMoreDataModal = () => {
+type DataRequestProps = {
+  selectedIndustry: string | undefined;
+  selectedTool: string | undefined;
+  selectedWindow: string | undefined;
+}
+
+const DataRequestModal = (props: DataRequestProps) => {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -19,14 +25,14 @@ const NeedMoreDataModal = () => {
     setOpen(false);
   };
 
-  const [request, setRequest] = React.useState('');
+  const [why, setWhy] = React.useState('');
   const [email, setEmail] = React.useState('');
 
   const handleSubmit = (e: any) => {
     e.preventDefault()
 
     const requestData = {
-      "text": `Data Request: ${request} \n\n ${email}`
+      "text": `"${props.selectedIndustry}" "${props.selectedTool}" "${props.selectedWindow}" Data Request Reason: ${why} \n\n ${email}`
     }
     fetchSlack(requestData)
       .then(response => console.log(response))
@@ -44,26 +50,26 @@ const NeedMoreDataModal = () => {
     <React.Fragment>
       <form onSubmit={handleSubmit}>
         <Button variant="contained" size="large" onClick={handleClickOpen}>
-          Not in here? Request
+          Request
         </Button>
         <Dialog open={open} onClose={handleClose}>
           <DialogTitle>Data Request</DialogTitle>
           <DialogContent>
             <DialogContentText>
-              Please tell us what data you need. We will look into it and get back to you in 1 business day.
+              "{props.selectedIndustry}" "{props.selectedTool}" "{props.selectedWindow}" selected. Please tell us why you need this data. We will get back to you in 1 business day with data!
             </DialogContentText>
             <TextField
               autoFocus
               margin="dense"
-              id="request"
-              label="Your Data Request"
+              id="why"
+              label="Tell us why you need this data"
               multiline
               minRows={2}
               maxRows={5}
               fullWidth
               variant="standard"
-              value={request}
-              onChange={e => {setRequest(e.target.value)}}
+              value={why}
+              onChange={e => {setWhy(e.target.value)}}
               required
             />
             <TextField
@@ -89,4 +95,4 @@ const NeedMoreDataModal = () => {
   );
 }
 
-export { NeedMoreDataModal };
+export { DataRequestModal };

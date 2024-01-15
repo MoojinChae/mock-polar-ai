@@ -18,16 +18,15 @@ const Logo = (props: ILogoProps) => {
         width={size}
         height={size}
         viewBox="0 0 24 24"
-        strokeWidth="1.5"
+        strokeWidth="1"
         fill="none"
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M0 0h24v24H0z" stroke="none" />
-        <rect x="3" y="12" width="6" height="8" rx="1" />
-        <rect x="9" y="8" width="6" height="12" rx="1" />
-        <rect x="15" y="4" width="6" height="16" rx="1" />
-        <path d="M4 20h14" />
+        <circle cx="12" cy="12" r="10" fill="#ffffff" stroke="#000" stroke-width="1"/>
+        <circle cx="8" cy="10" r="2" fill="#03A9F4"/>
+        <circle cx="16" cy="10" r="2" fill="#03A9F4"/>
+        <ellipse cx="12" cy="15" rx="4" ry="3" fill="#03A9F4"/>
       </svg>
 
       {AppConfig.site_name}

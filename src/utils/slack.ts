@@ -1,4 +1,5 @@
-const fetchSlack = async (url='', data={}) => {
+const fetchSlack = async (data={}) => {
+  const url = 'SLACK_URL'
   const res = await fetch(url, {
     method: 'POST', // *GET, POST, PUT, DELETE, etc.
     mode: 'no-cors', // no-cors, *cors, same-origin

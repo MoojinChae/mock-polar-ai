@@ -2,34 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import { Typography } from '@mui/material';
-import { ToolSelectionTab } from './ToolSelectionTab';
-
-interface TabPanelProps {
-  children?: React.ReactNode;
-  index: number;
-  value: number;
-}
-
-function CustomTabPanel(props: TabPanelProps) {
-  const { children, value, index, ...other } = props;
-
-  return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function a11yProps(index: number) {
   return {
@@ -40,46 +13,50 @@ function a11yProps(index: number) {
 
 type Category = {
   name: string;
-  tools: Array<string>;
 }
 
 type CategorySelectionProps = {
   categories: Array<Category>;
+  selectedCategory: number;
+  setCategory: React.Dispatch<React.SetStateAction<number>>;
+  color: string;
 }
 
 const CategorySelectionTab = (props: CategorySelectionProps) => {
-  const [value, setValue] = React.useState(0);
+
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main: props.color,
+      },
+    },
+  });
 
   const handleChange = (_e: React.SyntheticEvent, newValue: number) => {
-    setValue(newValue);
+    props.setCategory(newValue);
   };
 
   const listTabs = props.categories.map((category, index) => 
     <Tab label={category.name} {...a11yProps(index)} />
   );
 
-  const listCustomTabPanels = props.categories.map((category, index) => 
-    <CustomTabPanel value={value} index={index}>
-      <ToolSelectionTab tools={category.tools} />
-    </CustomTabPanel>
-  );
-
   return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          textColor="secondary"
-          indicatorColor="secondary"
-          centered
-        >
-          {listTabs}
-        </Tabs>
+    <ThemeProvider theme = {theme}>
+      <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
+          <Tabs
+            value={props.selectedCategory}
+            onChange={handleChange}
+            textColor='primary'
+            indicatorColor='primary'
+            variant="scrollable"
+            scrollButtons="auto"
+          >
+            {listTabs}
+          </Tabs>
+        </Box>
       </Box>
-
-      {listCustomTabPanels}
-    </Box>
+    </ThemeProvider>
   );
 }
 

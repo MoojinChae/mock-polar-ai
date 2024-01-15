@@ -22,14 +22,13 @@ const ContactUsModal = () => {
   const [message, setMessage] = React.useState('');
   const [email, setEmail] = React.useState('');
 
-  const SlackWebhookURL = "https://hooks.slack.com/services/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"
   const handleSubmit = (e: any) => {
     e.preventDefault()
 
     const messageData = {
       "text": `Contact Us: ${message} \n\n ${email}`
     }
-    fetchSlack(SlackWebhookURL, messageData)
+    fetchSlack(messageData)
       .then(response => console.log(response))
       .then(data=>{
         return data;
