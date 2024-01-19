@@ -227,13 +227,13 @@ const Hero = () => {
         </Section>
         <Section>
           <div className="text-center">
-            <div className="text-xl mb-3 text-gray-900">You want to build an B2B SaaS AI application. How can you get other company's data?</div>
+            <div className="text-xl mb-3 text-gray-900">You want to build a B2B SaaS AI application MVP. How can you get another company's data?</div>
             <Grid container spacing={1}>
               <Grid item xs={4} md={4}>
                 <Card variant="soft" sx={{ height: '100%' }} color="neutral" invertedColors>
                   <CardContent>
                     <Typography level="title-lg">Option 1</Typography>
-                    <Typography level="title-md">Contact to companies and ask them to provide data</Typography>
+                    <Typography level="title-md">Contact companies and ask them to provide data</Typography>
                     <CardOverflow>
                       <AspectRatio ratio="2">
                         <img
@@ -244,7 +244,7 @@ const Hero = () => {
                         />
                       </AspectRatio>
                     </CardOverflow>
-                    <Typography>Will never work unless you were VP of famous company before!</Typography>
+                    <Typography>It will never work unless you were a VP at a famous company before!</Typography>
                   </CardContent>
                 </Card>
               </Grid>
@@ -252,7 +252,7 @@ const Hero = () => {
                 <Card variant="soft" sx={{ height: '100%' }} color="neutral" invertedColors>
                   <CardContent>
                     <Typography level="title-lg">Option 2</Typography>
-                    <Typography level="title-md">Create few fake accounts and do pretend play</Typography>
+                    <Typography level="title-md">Create a few fake accounts and engage in pretend play</Typography>
                     <CardOverflow>
                       <AspectRatio ratio="2">
                         <img
@@ -263,7 +263,7 @@ const Hero = () => {
                         />
                       </AspectRatio>
                     </CardOverflow>
-                    <Typography>Waste of time. Founders have to do critical things!</Typography>
+                    <Typography>It's waste of time. Founders have to focus on critical tasks!</Typography>
                   </CardContent>
                 </Card>
               </Grid>
@@ -271,7 +271,7 @@ const Hero = () => {
                 <Card variant="soft" sx={{ height: '100%' }} color="primary" invertedColors>
                   <CardContent>
                     <Typography level="title-lg">Option 3</Typography>
-                    <Typography level="title-md">Work with MockPolar AI with just few clicks</Typography>
+                    <Typography level="title-md">Work with MockPolar AI with just a few clicks</Typography>
                     <CardOverflow>
                       <AspectRatio ratio="2">
                         <img
@@ -287,8 +287,8 @@ const Hero = () => {
                 </Card>
               </Grid>
             </Grid>
-            <div className="mt-20 text-xl text-gray-900">Here is the customer service data from travel agent as a snippet.</div>
-            <div className="mb-4 text-md text-gray-900">Note: This is just a snippet. Actual output could contain up to few months of data.</div>
+            <div className="mt-20 text-xl text-gray-900">Here is the customer service data from a travel agent as a snippet.</div>
+            <div className="mb-4 text-md text-gray-900">Note: This is just a snippet. The actual output could contain data for up to a few months.</div>
             <div className="whitespace-pre-line text-4xl font-bold text-gray-900">
               <Grid container spacing={1}>
                 <Grid item xs={12} md={12}>

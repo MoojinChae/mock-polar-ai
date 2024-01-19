@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { sendGAEvent } from '@next/third-parties/google'
 
 function a11yProps(index: number) {
   return {
@@ -34,6 +35,7 @@ const CategorySelectionTab = (props: CategorySelectionProps) => {
 
   const handleChange = (_e: React.SyntheticEvent, newValue: number) => {
     props.setCategory(newValue);
+    sendGAEvent({ event: 'categoryClicked', value: newValue })
   };
 
   const listTabs = props.categories.map((category, index) => 
