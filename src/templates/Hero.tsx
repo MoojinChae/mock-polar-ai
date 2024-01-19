@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
+import { useRouter } from 'next/router';
 
 import { Background } from '../background/Background';
 import { HeroTitle } from '../hero/HeroTitle';
@@ -10,6 +11,10 @@ import { CodeSnippet } from './CodeSnippet';
 import { ContactUs } from '../layout/ContactUs';
 import { CategorySelectionTab } from '@/tab/CategorySelectionTab';
 import { blue } from '@mui/material/colors';
+import Card from '@mui/joy/Card';
+import Typography from '@mui/joy/Typography';
+import CardContent from '@mui/joy/CardContent';
+import { CardOverflow, AspectRatio } from '@mui/joy';
 
 type Categories = {
   name: string;
@@ -23,8 +28,8 @@ const tools: Array<Categories> = [
 ]
 
 const Hero = () => {
-  
   const [tool, setTool] = React.useState(0);
+  const router = useRouter();
 
   const getCode = () => {
     if (tool == 0)
@@ -222,13 +227,71 @@ const Hero = () => {
         </Section>
         <Section>
           <div className="text-center">
-            <div className="mb-4 text-xl">Here is the customer service data from travel agent as an example.</div>
+            <div className="text-xl mb-3 text-gray-900">You want to build an B2B SaaS AI application. How can you get other company's data?</div>
+            <Grid container spacing={1}>
+              <Grid item xs={4} md={4}>
+                <Card variant="soft" sx={{ height: '100%' }} color="neutral" invertedColors>
+                  <CardContent>
+                    <Typography level="title-lg">Option 1</Typography>
+                    <Typography level="title-md">Contact to companies and ask them to provide data</Typography>
+                    <CardOverflow>
+                      <AspectRatio ratio="2">
+                        <img
+                          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=318"
+                          srcSet="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=318&dpr=2 2x"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </AspectRatio>
+                    </CardOverflow>
+                    <Typography>Will never work unless you were VP of famous company before!</Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+              <Grid item xs={4} md={4}>
+                <Card variant="soft" sx={{ height: '100%' }} color="neutral" invertedColors>
+                  <CardContent>
+                    <Typography level="title-lg">Option 2</Typography>
+                    <Typography level="title-md">Create few fake accounts and do pretend play</Typography>
+                    <CardOverflow>
+                      <AspectRatio ratio="2">
+                        <img
+                          src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?auto=format&fit=crop&w=318"
+                          srcSet="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?auto=format&fit=crop&w=318&dpr=2 2x"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </AspectRatio>
+                    </CardOverflow>
+                    <Typography>Waste of time. Founders have to do critical things!</Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+              <Grid item xs={4} md={4}>
+                <Card variant="soft" sx={{ height: '100%' }} color="primary" invertedColors>
+                  <CardContent>
+                    <Typography level="title-lg">Option 3</Typography>
+                    <Typography level="title-md">Work with MockPolar AI with just few clicks</Typography>
+                    <CardOverflow>
+                      <AspectRatio ratio="2">
+                        <img
+                          src={`${router.basePath}/assets/images/mock-polar.png`}
+                          srcSet={`${router.basePath}/assets/images/mock-polar.png`}
+                          loading="lazy"
+                          alt=""
+                        />
+                      </AspectRatio>
+                    </CardOverflow>
+                    <Typography>We will provide high quality and worry-free data!</Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+            </Grid>
+            <div className="mt-20 text-xl text-gray-900">Here is the customer service data from travel agent as a snippet.</div>
+            <div className="mb-4 text-md text-gray-900">Note: This is just a snippet. Actual output could contain up to few months of data.</div>
             <div className="whitespace-pre-line text-4xl font-bold text-gray-900">
               <Grid container spacing={1}>
-                <Grid item xs={3} md={2}>
-                  <div className='text-sm flex h-full justify-end items-center pr-2'>Output Format</div>
-                </Grid>
-                <Grid item xs={9} md={10}>
+                <Grid item xs={12} md={12}>
                   <CategorySelectionTab categories={tools} selectedCategory={tool} setCategory={setTool} color={blue[600]}/>
                 </Grid>
               </Grid>

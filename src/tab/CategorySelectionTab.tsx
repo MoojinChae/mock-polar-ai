@@ -51,6 +51,7 @@ const CategorySelectionTab = (props: CategorySelectionProps) => {
             indicatorColor='primary'
             variant="scrollable"
             scrollButtons="auto"
+            centered
           >
             {listTabs}
           </Tabs>

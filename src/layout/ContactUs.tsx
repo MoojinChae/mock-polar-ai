@@ -52,10 +52,9 @@ const ContactUs = () => {
         required
       />
       <TextField
-        autoFocus
         id="usecase"
         margin="normal"
-        label="Your Use Case"
+        label="Your Use Case."
         multiline
         rows={5}
         fullWidth

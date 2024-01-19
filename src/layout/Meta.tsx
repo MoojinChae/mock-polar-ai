@@ -24,7 +24,7 @@ const Meta = (props: IMetaProps) => {
         />
         <link
           rel="apple-touch-icon"
-          href={`${router.basePath}/assets/image/mock-polar.png`}
+          href={`${router.basePath}/assets/images/mock-polar.png`}
           key="apple"
         />
         <link
