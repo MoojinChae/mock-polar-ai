@@ -1,8 +1,8 @@
 import '../styles/global.css';
 
-import type { AppProps } from 'next/app';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { Analytics } from '@vercel/analytics/react';
-import { GoogleAnalytics } from '@next/third-parties/google'
+import type { AppProps } from 'next/app';
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>

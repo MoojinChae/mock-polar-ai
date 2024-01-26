@@ -1,9 +1,10 @@
-import * as React from 'react';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+/* eslint-disable react/jsx-key */
 import { Button } from '@mui/material';
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Typography from '@mui/material/Typography';
+import * as React from 'react';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -40,7 +41,7 @@ function a11yProps(index: number) {
 
 type ToolSelectionProps = {
   tools: Array<string>;
-}
+};
 
 const ToolSelectionTab = (props: ToolSelectionProps) => {
   const [value, setValue] = React.useState(0);
@@ -49,20 +50,25 @@ const ToolSelectionTab = (props: ToolSelectionProps) => {
     setValue(newValue);
   };
 
-  const listTabs = props.tools.map((tool, index) => 
+  const listTabs = props.tools.map((tool, index) => (
     <Tab label={tool} {...a11yProps(index)} />
-  );
+  ));
 
-  const listTabPanels = props.tools.map((tool, index) => 
+  const listTabPanels = props.tools.map((tool, index) => (
     <TabPanel value={value} index={index}>
-      <div className="mt-4 mb-4">{tool}</div>
+      <div className="my-4">{tool}</div>
       <Button variant="contained">Download</Button>
     </TabPanel>
-  );
+  ));
 
   return (
     <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
+      sx={{
+        flexGrow: 1,
+        bgcolor: 'background.paper',
+        display: 'flex',
+        height: 224,
+      }}
     >
       <Tabs
         orientation="vertical"
@@ -77,6 +83,6 @@ const ToolSelectionTab = (props: ToolSelectionProps) => {
       {listTabPanels}
     </Box>
   );
-}
+};
 
 export { ToolSelectionTab };

@@ -1,11 +1,12 @@
-import * as React from 'react';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import TextField from '@mui/material/TextField';
+import * as React from 'react';
+
 import { fetchSlack } from '@/utils/slack';
 
 const ContactUsModal = () => {
@@ -23,21 +24,21 @@ const ContactUsModal = () => {
   const [email, setEmail] = React.useState('');
 
   const handleSubmit = (e: any) => {
-    e.preventDefault()
+    e.preventDefault();
 
     const messageData = {
-      "text": `Contact Us: ${message} \n\n ${email}`
-    }
+      text: `Contact Us: ${message} \n\n ${email}`,
+    };
     fetchSlack(messageData)
-      .then(response => console.log(response))
-      .then(data=>{
+      .then((response) => console.log(response))
+      .then((data) => {
         return data;
       })
-      .catch(err => {
-        console.error('There was an error.', err)
+      .catch((err) => {
+        console.error('There was an error.', err);
       });
-    
-    handleClose()
+
+    handleClose();
   };
 
   return (
@@ -62,7 +63,9 @@ const ContactUsModal = () => {
             fullWidth
             variant="standard"
             value={message}
-            onChange={e => {setMessage(e.target.value)}}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
             required
           />
           <TextField
@@ -74,7 +77,9 @@ const ContactUsModal = () => {
             fullWidth
             variant="standard"
             value={email}
-            onChange={e => {setEmail(e.target.value)}}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
             required
           />
         </DialogContent>
@@ -85,6 +90,6 @@ const ContactUsModal = () => {
       </Dialog>
     </React.Fragment>
   );
-}
+};
 
 export { ContactUsModal };

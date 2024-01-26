@@ -1,18 +1,20 @@
-import * as React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import TextField from '@mui/material/TextField';
+import * as React from 'react';
+
 import { fetchSlack } from '@/utils/slack';
 
 type DataRequestProps = {
   selectedIndustry: string | undefined;
   selectedTool: string | undefined;
   selectedWindow: string | undefined;
-}
+};
 
 const DataRequestModal = (props: DataRequestProps) => {
   const [open, setOpen] = React.useState(false);
@@ -29,21 +31,21 @@ const DataRequestModal = (props: DataRequestProps) => {
   const [email, setEmail] = React.useState('');
 
   const handleSubmit = (e: any) => {
-    e.preventDefault()
+    e.preventDefault();
 
     const requestData = {
-      "text": `"${props.selectedIndustry}" "${props.selectedTool}" "${props.selectedWindow}" Data Request Reason: ${why} \n\n ${email}`
-    }
+      text: `"${props.selectedIndustry}" "${props.selectedTool}" "${props.selectedWindow}" Data Request Reason: ${why} \n\n ${email}`,
+    };
     fetchSlack(requestData)
-      .then(response => console.log(response))
-      .then(data=>{
+      .then((response) => console.log(response))
+      .then((data) => {
         return data;
       })
-      .catch(err => {
-        console.error('There was an error.', err)
+      .catch((err) => {
+        console.error('There was an error.', err);
       });
-    
-    handleClose()
+
+    handleClose();
   };
 
   return (
@@ -56,7 +58,9 @@ const DataRequestModal = (props: DataRequestProps) => {
           <DialogTitle>Data Request</DialogTitle>
           <DialogContent>
             <DialogContentText>
-              "{props.selectedIndustry}" "{props.selectedTool}" "{props.selectedWindow}" selected. Please tell us why you need this data. We will get back to you in 1 business day with data!
+              "{props.selectedIndustry}" "{props.selectedTool}" "
+              {props.selectedWindow}" selected. Please tell us why you need this
+              data. We will get back to you in 1 business day with data!
             </DialogContentText>
             <TextField
               autoFocus
@@ -69,7 +73,9 @@ const DataRequestModal = (props: DataRequestProps) => {
               fullWidth
               variant="standard"
               value={why}
-              onChange={e => {setWhy(e.target.value)}}
+              onChange={(e) => {
+                setWhy(e.target.value);
+              }}
               required
             />
             <TextField
@@ -81,18 +87,22 @@ const DataRequestModal = (props: DataRequestProps) => {
               fullWidth
               variant="standard"
               value={email}
-              onChange={e => {setEmail(e.target.value)}}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
               required
             />
           </DialogContent>
           <DialogActions>
             <Button onClick={handleClose}>Cancel</Button>
-            <Button type="submit" onClick={handleSubmit}>Request</Button>
+            <Button type="submit" onClick={handleSubmit}>
+              Request
+            </Button>
           </DialogActions>
         </Dialog>
       </form>
     </React.Fragment>
   );
-}
+};
 
 export { DataRequestModal };

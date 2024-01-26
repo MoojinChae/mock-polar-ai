@@ -12,12 +12,22 @@ brew install node
 git clone git@github.com:MoojinChae/mock-polar-ai.git
 ```
 
-3. Build.
+3. Install next
+```
+npm install next
+```
+
+4. Run for local test
+```
+npm run dev
+```
+
+5. Prod Build
 ```bash
 npm run build
 ```
 
-4. Run it in your local.
+6. Run prod build in your local.
 ```bash
 npm start
 ```
