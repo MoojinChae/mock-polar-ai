@@ -35,7 +35,7 @@ const ContactUs = () => {
   return (
     <Container maxWidth="md">
       <div className="text-3xl font-bold leading-hero text-gray-900">
-        We wolud love to work with you!
+        We would love to work with you!
       </div>
       <div className="text-xl">MockPolar AI is currently in beta, but we would love to work with you.</div>
       <div className="mb-4 text-xl">Tell us about your use case and we will get back to you within a day!</div>
