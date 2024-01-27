@@ -4,7 +4,6 @@ import { FooterCopyright } from './FooterCopyright';
 
 type ICenteredFooterProps = {
   logo: ReactNode;
-  children: ReactNode;
 };
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
