@@ -96,8 +96,7 @@ const Hero = () => {
       <Section>
         <div className="text-center">
           <div className="mb-3 text-xl text-gray-900">
-            You want to build a B2B application MVP. How can you get internal
-            company data?
+            How can you get internal business data for your product MVP/Demo?
           </div>
           <Grid container spacing={1}>
             <Grid item xs={4} md={4}>
