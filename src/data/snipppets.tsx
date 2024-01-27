@@ -1,6 +1,6 @@
 const GetSnippets = (
   outputFormat: number,
-  industriy: number,
+  industry: number,
   language: number,
   timeWindow: number,
 ) => {
@@ -18,7 +18,7 @@ const GetSnippets = (
         external_id: 'abc123456',
         group_id: 53132,
         id: timeWindow,
-        organization_id: industriy,
+        organization_id: industry,
         priority: 'high',
         requester_id: 1356,
         satisfaction_rating: {
@@ -42,7 +42,7 @@ const GetSnippets = (
     ];
     return snippet;
   }
-  if (outputFormat == 1) {
+  if (outputFormat === 1) {
     const snippet: any = [
       {
         id: 1,
@@ -181,7 +181,7 @@ const GetSnippets = (
     return snippet;
   }
   const snippet: any = {
-    'output format': "I don't know",
+    action: 'Click Generate Data button to see mock data example',
   };
   return snippet;
 };
