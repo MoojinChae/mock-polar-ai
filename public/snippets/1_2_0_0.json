@@ -1,0 +1,41 @@
+[
+  {
+    "type": "conversation",
+    "id": "finance1",
+    "created_at": 1682509200,
+    "updated_at": 1682595600,
+    "user": {
+      "id": "user789",
+      "name": "Alex Taylor",
+      "email": "alextaylor@example.com",
+      "language_override": "en"
+    },
+    "assignee": {
+      "id": "agent890",
+      "type": "admin",
+      "name": "Sam Rivera"
+    },
+    "conversation_message": {
+      "subject": "Disputed Transaction Inquiry",
+      "body": "I've noticed a transaction on my account that I don't recognize. It's for $200 on January 25th, 2024. I did not authorize this payment and need assistance resolving this issue.",
+      "attachments": []
+    },
+    "tags": ["disputed-transaction", "urgent", "english"],
+    "status": "open",
+    "priority": "high",
+    "rating": null,
+    "parts": [
+      {
+        "id": "part1",
+        "part_type": "comment",
+        "body": "Thank you for bringing this to our attention. We are reviewing the transaction details and will get back to you within the next 24 hours to resolve the issue.",
+        "author": {
+          "id": "agent890",
+          "type": "admin"
+        },
+        "attachments": [],
+        "created_at": 1682516400
+      }
+    ]
+  }
+]

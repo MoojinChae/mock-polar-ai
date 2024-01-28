@@ -1,0 +1,41 @@
+[
+  {
+    "type": "conversation",
+    "id": "saas1",
+    "created_at": 1682512800,
+    "updated_at": 1682599200,
+    "user": {
+      "id": "user456",
+      "name": "Morgan Lee",
+      "email": "morganlee@example.com",
+      "language_override": "en"
+    },
+    "assignee": {
+      "id": "agent123",
+      "type": "admin",
+      "name": "Casey Jordan"
+    },
+    "conversation_message": {
+      "subject": "Feature Request - Integration Capabilities",
+      "body": "I'm currently exploring your platform and was wondering if there are plans to integrate with XYZ software? It's critical for our workflow, and having this integration would significantly enhance our productivity.",
+      "attachments": []
+    },
+    "tags": ["feature-request", "integration", "english"],
+    "status": "open",
+    "priority": "normal",
+    "rating": null,
+    "parts": [
+      {
+        "id": "part1",
+        "part_type": "comment",
+        "body": "We appreciate your suggestion and understand the importance of integrating with XYZ software. I've forwarded your request to our product team for evaluation. We aim to update you on our progress or any decisions regarding this feature within the next day.",
+        "author": {
+          "id": "agent123",
+          "type": "admin"
+        },
+        "attachments": [],
+        "created_at": 1682520000
+      }
+    ]
+  }
+]

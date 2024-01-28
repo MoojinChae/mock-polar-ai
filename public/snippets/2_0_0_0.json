@@ -1,0 +1,37 @@
+[
+  {
+    "headers": {
+      "Return-Path": "johnsmith@example.com",
+      "Date": "Mon, 1 Jan 2024 17:00:01 +0000",
+      "From": "John Smith <johnsmith@example.com>",
+      "To": "MockPolar Travel Company<contactus@mockpolar.ai>",
+      "Message-ID": "<4F145791.8040802@example.com>",
+      "Subject": "Booking Confirmation Error",
+      "Mime-Version": "1.0",
+      "Content-Type": "multipart/alternative; boundary=------------090409040602000601080801",
+      "Delivered-To": "contactus@mockpolar.ai",
+      "User-Agent": "Postbox 3.0.2 (Macintosh/20111203)"
+    },
+    "envelope": {
+      "to": "contactus@mockpolar.ai",
+      "from": "johnsmith@example.com",
+      "helo_domain": "localhost",
+      "remote_ip": "127.0.0.1",
+      "recipients": ["ontactus@mockpolar.ai"],
+      "spf": {
+        "result": "pass",
+        "domain": "example.com"
+      },
+      "tls": true
+    },
+    "plain": "I am extremely disappointed with the service provided by your travel agency. I booked a flight to Paris for my family, but when we arrived at the airport, we were told that our reservation had been canceled. This ruined our entire vacation and caused a lot of stress. I demand immediate action to rectify this situation.",
+    "reply_plain": "",
+    "attachments": [
+      {
+        "content": "dGVzdGZpbGU=",
+        "file_name": "screenshot.png",
+        "content_type": "image/png"
+      }
+    ]
+  }
+]

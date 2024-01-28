@@ -1,0 +1,41 @@
+[
+  {
+    "type": "conversation",
+    "id": "travel1",
+    "created_at": 1682505600,
+    "updated_at": 1682592000,
+    "user": {
+      "id": "user123",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "language_override": "en"
+    },
+    "assignee": {
+      "id": "agent456",
+      "type": "admin",
+      "name": "Jane Smith"
+    },
+    "conversation_message": {
+      "subject": "Urgent Booking Change Needed",
+      "body": "Hello, due to an unexpected event, I need to change my booking dates for my upcoming trip to Tokyo. Could you assist me with this as soon as possible?",
+      "attachments": []
+    },
+    "tags": ["booking-change", "urgent", "english"],
+    "status": "open",
+    "priority": "high",
+    "rating": null,
+    "parts": [
+      {
+        "id": "part1",
+        "part_type": "comment",
+        "body": "We have received your request and are currently looking into the available options to assist you with your booking change. We will update you shortly.",
+        "author": {
+          "id": "agent456",
+          "type": "admin"
+        },
+        "attachments": [],
+        "created_at": 1682512800
+      }
+    ]
+  }
+]

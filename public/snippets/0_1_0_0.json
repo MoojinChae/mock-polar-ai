@@ -1,0 +1,27 @@
+[
+  {
+    "subject": "Urgent Flight Cancellation Inquiry",
+    "description": "I need to cancel my flight scheduled for tomorrow due to an emergency. Can you please guide me through the cancellation process and inform me about any applicable refunds?",
+    "recipient": "support@travelagency.com",
+    "assignee_id": "english",
+    "created_at": "2024-01-26T08:00:00Z",
+    "custom_status_id": 901,
+    "due_at": "2024-01-27T08:00:00Z",
+    "external_id": "en123flightcancel",
+    "group_id": 90909,
+    "id": "day1",
+    "organization_id": "travel-agent",
+    "priority": "urgent",
+    "requester_id": 9100,
+    "satisfaction_rating": null,
+    "status": "open",
+    "submitter_id": 9100,
+    "tags": ["flight-cancellation", "urgent"],
+    "type": "request",
+    "updated_at": "2024-01-26T09:00:00Z",
+    "url": "https://travelagency.zendesk.com/api/v2/tickets/901.json",
+    "via": {
+      "channel": "email"
+    }
+  }
+]

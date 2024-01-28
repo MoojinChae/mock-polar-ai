@@ -1,0 +1,27 @@
+[
+  {
+    "subject": "Dispute Unauthorized Transaction",
+    "description": "I noticed an unauthorized transaction on my account dated yesterday. I did not authorize this payment and would like to dispute it and request an investigation.",
+    "recipient": "help@financeco.com",
+    "assignee_id": "english",
+    "created_at": "2024-01-26T10:30:00Z",
+    "custom_status_id": 1001,
+    "due_at": "2024-01-27T10:30:00Z",
+    "external_id": "en456unauthtrans",
+    "group_id": 101010,
+    "id": "day1",
+    "organization_id": "financial-service",
+    "priority": "high",
+    "requester_id": 10100,
+    "satisfaction_rating": null,
+    "status": "open",
+    "submitter_id": 10100,
+    "tags": ["unauthorized-transaction", "dispute"],
+    "type": "problem",
+    "updated_at": "2024-01-26T11:30:00Z",
+    "url": "https://financeco.zendesk.com/api/v2/tickets/1001.json",
+    "via": {
+      "channel": "phone"
+    }
+  }
+]

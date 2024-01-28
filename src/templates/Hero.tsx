@@ -42,11 +42,11 @@ const Hero = () => {
 
   const router = useRouter();
 
-  const handleGenerateData = () => {
-    // console.log('Selected Output Format:', outputFormat);
-    // console.log('Selected Industry:', industry);
-    // console.log('Selected Language:', language);
-    // console.log('Selected Time Window:', timeWindow);
+  const handleGenerateData = async () => {
+    console.log('Selected Output Format:', outputFormat);
+    console.log('Selected Industry:', industry);
+    console.log('Selected Language:', language);
+    console.log('Selected Time Window:', timeWindow);
 
     const outputFormatSelected = outputFormats.findIndex(
       (format) => format.name === outputFormat,
@@ -61,11 +61,11 @@ const Hero = () => {
       (timeWindowItem) => timeWindowItem.name === timeWindow,
     );
 
-    const newSnippet = GetSnippets(
+    const newSnippet = await GetSnippets(
       outputFormatSelected,
+      industrySelected,
       languageSelected,
       timeWindowSelected,
-      industrySelected,
     );
     setCodeSnippet(newSnippet);
   };

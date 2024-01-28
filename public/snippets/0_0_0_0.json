@@ -1,0 +1,31 @@
+[
+  {
+    "subject": "Booking Confirmation Error",
+    "description": "I am extremely disappointed with the service provided by your travel agency. I booked a flight to Paris for my family, but when we arrived at the airport, we were told that our reservation had been canceled. This ruined our entire vacation and caused a lot of stress. I demand immediate action to rectify this situation.",
+    "recipient": "contactus@mockpolar.ai",
+    "assignee_id": "language",
+    "created_at": "2024-01-02T10:53:19Z",
+    "custom_status_id": 123,
+    "due_at": null,
+    "external_id": "abc123456",
+    "group_id": 53132,
+    "id": "timeWindow",
+    "organization_id": "industry",
+    "priority": "high",
+    "requester_id": 1356,
+    "satisfaction_rating": {
+      "comment": "Really satisfied with response.",
+      "id": 15,
+      "score": "good"
+    },
+    "status": "open",
+    "submitter_id": 1233,
+    "tags": ["enterprise"],
+    "type": "incident",
+    "updated_at": "2024-01-05T15:02:13Z",
+    "url": "https://mockpoloar.zendesk.com/api/v2/tickets/1.json",
+    "via": {
+      "channel": "app"
+    }
+  }
+]

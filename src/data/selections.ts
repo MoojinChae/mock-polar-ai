@@ -26,5 +26,4 @@ export const languages: Array<Categories> = [
 export const timeWindows: Array<Categories> = [
   { name: '1 Day' },
   { name: '1 Week' },
-  { name: '1 Month' },
 ];

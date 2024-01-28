@@ -1,0 +1,27 @@
+[
+  {
+    "subject": "Problema con el pedido recibido",
+    "description": "He recibido mi pedido hoy, pero faltan varios artículos y algunos están dañados. Necesito una solución urgente ya que son para un evento importante.",
+    "recipient": "atencioncliente@ecommerce.es",
+    "assignee_id": "spanish",
+    "created_at": "2024-01-26T14:00:00Z",
+    "custom_status_id": 1201,
+    "due_at": "2024-01-27T14:00:00Z",
+    "external_id": "es890pedido",
+    "group_id": 121212,
+    "id": "day1",
+    "organization_id": "e-commerce",
+    "priority": "high",
+    "requester_id": 12100,
+    "satisfaction_rating": null,
+    "status": "open",
+    "submitter_id": 12100,
+    "tags": ["pedido-incompleto", "dañado", "urgente"],
+    "type": "issue",
+    "updated_at": "2024-01-26T15:00:00Z",
+    "url": "https://ecommerce.es.zendesk.com/api/v2/tickets/1201.json",
+    "via": {
+      "channel": "web"
+    }
+  }
+]

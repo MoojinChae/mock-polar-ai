@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "created_at": 1671234580,
+    "type": "other",
+    "subject": "Booking Confirmation Error",
+    "description": "I am extremely disappointed with the service provided by your travel agency. I booked a flight to Paris for my family, but when we arrived at the airport, we were told that our reservation had been canceled. This ruined our entire vacation and caused a lot of stress. I demand immediate action to rectify this situation.",
+    "status": "open",
+    "requester_id": 23412342
+  },
+  {
+    "id": 2,
+    "created_at": 1675321280,
+    "type": "account",
+    "subject": "........"
+  }
+]

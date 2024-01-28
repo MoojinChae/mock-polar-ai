@@ -1,0 +1,31 @@
+[
+  {
+    "subject": "支付问题通知",
+    "description": "我对您的电子商务平台的支付流程感到非常不满。我尝试购买一款智能手表，但在支付环节时遇到了问题，导致交易失败。我希望能够得到及时的帮助解决这一问题。",
+    "recipient": "service@ecommerce.cn",
+    "assignee_id": "language",
+    "created_at": "2024-01-26T10:00:00Z",
+    "custom_status_id": 456,
+    "due_at": "2024-01-27T10:00:00Z",
+    "external_id": "def7891011",
+    "group_id": 23456,
+    "id": "timeWindow",
+    "organization_id": "industry",
+    "priority": "urgent",
+    "requester_id": 2468,
+    "satisfaction_rating": {
+      "comment": "满意度尚可，期待更快的响应。",
+      "id": 25,
+      "score": "neutral"
+    },
+    "status": "pending",
+    "submitter_id": 2469,
+    "tags": ["online-payment", "urgent"],
+    "type": "problem",
+    "updated_at": "2024-01-27T09:00:00Z",
+    "url": "https://ecommercecn.zendesk.com/api/v2/tickets/2.json",
+    "via": {
+      "channel": "email"
+    }
+  }
+]
