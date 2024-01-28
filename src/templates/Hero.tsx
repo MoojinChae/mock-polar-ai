@@ -1,8 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { AspectRatio, CardOverflow } from '@mui/joy';
-import Card from '@mui/joy/Card';
-import CardContent from '@mui/joy/CardContent';
-import Typography from '@mui/joy/Typography';
 import {
   Button,
   FormControl,
@@ -13,7 +9,6 @@ import {
 import { blue, green, orange, red } from '@mui/material/colors';
 import Grid from '@mui/material/Grid';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import * as React from 'react';
 
 import {
@@ -39,8 +34,6 @@ const Hero = () => {
   const [codeSnippet, setCodeSnippet] = React.useState({
     Try: 'Click Generate Data button to get mock data example',
   });
-
-  const router = useRouter();
 
   const handleGenerateData = async () => {
     console.log('Selected Output Format:', outputFormat);
@@ -93,101 +86,10 @@ const Hero = () => {
           description="MockPolar AI generates internal business data powered by Gen AI."
         />
       </Section>
-      <Section>
+      <Section yPadding="py-3">
         <div className="text-center">
-          <div className="mb-3 text-xl text-gray-900">
-            How can you get internal business data for your product MVP/Demo?
-          </div>
-          <Grid container spacing={1}>
-            <Grid item xs={4} md={4}>
-              <Card
-                variant="outlined"
-                sx={{ height: '100%' }}
-                color="neutral"
-                invertedColors
-              >
-                <CardContent>
-                  <Typography level="title-lg">Option 1</Typography>
-                  <Typography level="title-md">
-                    Contact companies and ask them to provide data
-                  </Typography>
-                  <CardOverflow>
-                    <AspectRatio ratio="2">
-                      <img
-                        src={`${router.basePath}/assets/images/option1.png`}
-                        srcSet={`${router.basePath}/assets/images/option1.png`}
-                        loading="lazy"
-                        alt=""
-                      />
-                    </AspectRatio>
-                  </CardOverflow>
-                  <Typography>
-                    It will never work unless you were a VP at a famous company
-                    before!
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={4} md={4}>
-              <Card
-                variant="outlined"
-                sx={{ height: '100%' }}
-                color="neutral"
-                invertedColors
-              >
-                <CardContent>
-                  <Typography level="title-lg">Option 2</Typography>
-                  <Typography level="title-md">
-                    Create a few fake accounts and engage in pretend play
-                  </Typography>
-                  <CardOverflow>
-                    <AspectRatio ratio="2">
-                      <img
-                        src={`${router.basePath}/assets/images/option2.png`}
-                        srcSet={`${router.basePath}/assets/images/option2.png`}
-                        loading="lazy"
-                        alt=""
-                      />
-                    </AspectRatio>
-                  </CardOverflow>
-                  <Typography>
-                    It's waste of time. Founders have to focus on critical
-                    tasks!
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={4} md={4}>
-              <Card
-                variant="soft"
-                sx={{ height: '100%' }}
-                color="primary"
-                invertedColors
-              >
-                <CardContent>
-                  <Typography level="title-lg">Option 3</Typography>
-                  <Typography level="title-md">
-                    Work with MockPolar AI with just a few clicks
-                  </Typography>
-                  <CardOverflow>
-                    <AspectRatio ratio="2">
-                      <img
-                        src={`${router.basePath}/assets/images/mock-polar.png`}
-                        srcSet={`${router.basePath}/assets/images/mock-polar.png`}
-                        loading="lazy"
-                        alt=""
-                      />
-                    </AspectRatio>
-                  </CardOverflow>
-                  <Typography>
-                    We will provide high quality and worry-free data!
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          </Grid>
           <div className="mt-20 text-xl text-gray-900">
-            Here is the customer service data from a travel agent as an example.
+            Here is the customer service data as an example.
           </div>
           <div className="text-md mb-4 text-gray-900">
             Note: This is just a snippet. The actual output could be large.
@@ -305,7 +207,7 @@ const Hero = () => {
             </Grid>
           </div>
         </div>
-        <div className="my-4">
+        <div className="my-12">
           <CodeSnippet code={codeSnippet} />
         </div>
         <div className="text-center">
