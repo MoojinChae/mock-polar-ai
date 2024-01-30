@@ -25,6 +25,7 @@ import { ContactUs } from '../layout/ContactUs';
 import { Section } from '../layout/Section';
 import { CodeSnippet } from './CodeSnippet';
 import { Logo } from './Logo';
+import { track } from '@vercel/analytics';
 
 const Hero = () => {
   const [outputFormat, setOutputFormat] = React.useState('');
@@ -61,6 +62,8 @@ const Hero = () => {
       timeWindowSelected,
     );
     setCodeSnippet(newSnippet);
+    // To track selected options on Vercel Analytics
+    track('Generate Data', {outputFormat :outputFormat, industry: industry, language: language, timeWindow:timeWindow});
   };
 
   return (
@@ -88,11 +91,8 @@ const Hero = () => {
       </Section>
       <Section yPadding="py-3">
         <div className="text-center">
-          <div className="mt-20 text-xl text-gray-900">
+          <div className="mt-5 mb-5 text-xl text-gray-900">
             Here is the customer service data as an example.
-          </div>
-          <div className="text-md mb-4 text-gray-900">
-            Note: This is just a snippet. The actual output could be large.
           </div>
           <div className="whitespace-pre-line text-4xl font-bold text-gray-900">
             <Grid

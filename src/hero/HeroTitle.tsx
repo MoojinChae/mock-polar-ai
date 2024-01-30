@@ -10,7 +10,7 @@ const HeroTitle = (props: IHeroTitleProps) => (
     <h1 className="whitespace-pre-line text-5xl font-bold leading-hero text-gray-900">
       {props.title}
     </h1>
-    <div className="mt-4 text-xl">{props.description}</div>
+    <div className="text-xl">{props.description}</div>
   </header>
 );
 
