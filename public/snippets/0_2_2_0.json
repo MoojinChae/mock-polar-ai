@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "Solicitud Urgente de Revisión de Cargos",
+		"description": "He notado cargos no autorizados en mi cuenta bancaria asociados a mi tarjeta de débito. Necesito que estos cargos sean revisados y revertidos con urgencia, ya que afectan mi saldo disponible.",
+		"recipient": "atencioncliente@serviciosfinancieros.es",
+		"assignee_id": "spanish",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 1901,
+		"due_at": "2024-01-27T09:00:00Z",
+		"external_id": "es789unauthorizedcharges",
+		"group_id": 191919,
+		"id": "1day1",
+		"organization_id": "financial-service",
+		"priority": "urgent",
+		"requester_id": 19100,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 19100,
+		"tags": ["cargos-no-autorizados", "revisión-urgente", "español"],
+		"type": "problem",
+		"updated_at": "2024-01-26T10:00:00Z",
+		"url": "https://serviciosfinancieros.es.zendesk.com/api/v2/tickets/1901.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

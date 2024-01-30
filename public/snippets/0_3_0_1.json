@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "Integration Feature Request and Timeline Inquiry",
+		"description": "We're currently evaluating your SaaS tool for our team and are particularly interested in its integration capabilities with our existing workflow management system. Could you provide details on possible integrations and an estimated timeline for implementation? We are hoping to make a decision within the next three days.",
+		"recipient": "support@saastool.com",
+		"assignee_id": "english",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 2701,
+		"due_at": "2024-01-29T09:00:00Z",
+		"external_id": "en123integration",
+		"group_id": 272727,
+		"id": "3days1",
+		"organization_id": "saas-tool",
+		"priority": "medium",
+		"requester_id": 27200,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 27200,
+		"tags": ["integration", "feature-request", "english"],
+		"type": "inquiry",
+		"updated_at": "2024-01-27T10:00:00Z",
+		"url": "https://saastool.com.zendesk.com/api/v2/tickets/2701.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

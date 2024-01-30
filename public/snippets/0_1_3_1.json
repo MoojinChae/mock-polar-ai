@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "여행 상품 문의 및 예약 가능 여부 확인",
+		"description": "다가오는 주말에 제주도 여행을 계획하고 있습니다. 2인을 위한 여행 패키지 상품이 있는지, 그리고 가격과 포함된 서비스 내역을 알고 싶습니다. 가능한 빠른 시간 내에 예약을 완료하고 싶어서, 3일 이내에 답변 주실 수 있나요?",
+		"recipient": "reservations@travelagency.kr",
+		"assignee_id": "korean",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 2401,
+		"due_at": "2024-01-29T09:00:00Z",
+		"external_id": "kr234jeju",
+		"group_id": 242424,
+		"id": "3days1",
+		"organization_id": "travel-agent",
+		"priority": "medium",
+		"requester_id": 24200,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 24200,
+		"tags": ["여행-패키지", "제주도", "한국어"],
+		"type": "inquiry",
+		"updated_at": "2024-01-27T10:00:00Z",
+		"url": "https://travelagency.kr.zendesk.com/api/v2/tickets/2401.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "긴급 기술 지원 요청",
+		"description": "저희 팀이 귀사의 SaaS 도구를 사용 중에 긴급한 기술적 문제를 겪고 있습니다. 데이터 동기화 과정에서 오류가 발생하여 오늘 중으로 해결이 필요합니다. 가능한 빠른 시간 내에 지원을 받을 수 있을까요?",
+		"recipient": "support@saastool.kr",
+		"assignee_id": "korean",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 3001,
+		"due_at": "2024-01-27T09:00:00Z",
+		"external_id": "kr123techissue",
+		"group_id": 303030,
+		"id": "1day1",
+		"organization_id": "saas-tool",
+		"priority": "urgent",
+		"requester_id": 30300,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 30300,
+		"tags": ["기술지원", "긴급", "한국어"],
+		"type": "problem",
+		"updated_at": "2024-01-26T10:00:00Z",
+		"url": "https://saastool.kr.zendesk.com/api/v2/tickets/3001.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

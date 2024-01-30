@@ -1,0 +1,80 @@
+[
+	{
+		"type": "conversation",
+		"id": "finServ3days1",
+		"created_at": 1682505600,
+		"updated_at": 1682764800,
+		"user": {
+			"id": "userFin1",
+			"name": "Michael Thompson",
+			"email": "michael.thompson@example.com",
+			"language_override": "en"
+		},
+		"assignee": {
+			"id": "agentFin1",
+			"type": "admin",
+			"name": "Sarah Connors"
+		},
+		"conversation_message": {
+			"subject": "Account Access Issue",
+			"body": "I've been unable to access my online banking account since yesterday. I've tried resetting my password, but no luck. Can you assist?",
+			"attachments": []
+		},
+		"tags": ["account-access", "technical-issue", "urgent"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "Hi Michael, we're sorry to hear you're having trouble accessing your account. I've escalated this to our technical team and will get back to you within the next 24 hours with an update.",
+				"author": {
+					"id": "agentFin1",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682519200
+			}
+		]
+	},
+	{
+		"type": "conversation",
+		"id": "finServ3days2",
+		"created_at": 1682592000,
+		"updated_at": 1682851200,
+		"user": {
+			"id": "userFin2",
+			"name": "Elizabeth Johnson",
+			"email": "elizabeth.johnson@example.com",
+			"language_override": "en"
+		},
+		"assignee": {
+			"id": "agentFin2",
+			"type": "admin",
+			"name": "David Martinez"
+		},
+		"conversation_message": {
+			"subject": "Dispute Transaction",
+			"body": "I noticed a charge on my account that I don’t recognize from January 25th, 2024, for $150. Can you help me dispute this transaction?",
+			"attachments": []
+		},
+		"tags": ["dispute-transaction", "customer-support", "urgent"],
+		"status": "open",
+		"priority": "medium",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part2",
+				"part_type": "comment",
+				"body": "Hello Elizabeth, I understand your concern regarding the unrecognized charge. I'll start the dispute process for this transaction and aim to have an update for you by tomorrow.",
+				"author": {
+					"id": "agentFin2",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682678400
+			}
+		]
+	}
+]

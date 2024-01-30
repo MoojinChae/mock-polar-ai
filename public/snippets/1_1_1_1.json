@@ -1,0 +1,41 @@
+[
+	{
+		"type": "conversation",
+		"id": "travel1dayCN",
+		"created_at": 1682505600,
+		"updated_at": 1682592000,
+		"user": {
+			"id": "userCN1",
+			"name": "王明",
+			"email": "wangming@example.com",
+			"language_override": "zh"
+		},
+		"assignee": {
+			"id": "agentCN1",
+			"type": "admin",
+			"name": "李华"
+		},
+		"conversation_message": {
+			"subject": "紧急签证咨询服务",
+			"body": "我计划明天前往日本，但我的签证还未完成处理。请问你们能提供紧急签证服务吗？",
+			"attachments": []
+		},
+		"tags": ["紧急", "签证", "咨询"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "您好，王明，我们理解您的紧急情况。我们的签证服务团队正在加紧处理您的申请，我们将尽快与您联系更新进度。",
+				"author": {
+					"id": "agentCN1",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682512800
+			}
+		]
+	}
+]

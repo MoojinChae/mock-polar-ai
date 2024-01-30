@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "功能扩展请求与实施时间咨询",
+		"description": "我们正在考虑贵公司的SaaS工具以满足我们的特定需求，特别是对于CRM系统的集成功能。能否提供该集成功能的详细信息及可能的实施时间线？我们希望在接下来的三天内做出决策。",
+		"recipient": "service@saastool.cn",
+		"assignee_id": "chinese",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 2901,
+		"due_at": "2024-01-29T09:00:00Z",
+		"external_id": "cn789integration",
+		"group_id": 292929,
+		"id": "3days1",
+		"organization_id": "saas-tool",
+		"priority": "medium",
+		"requester_id": 29200,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 29200,
+		"tags": ["功能扩展", "CRM集成", "中文"],
+		"type": "inquiry",
+		"updated_at": "2024-01-27T10:00:00Z",
+		"url": "https://saastool.cn.zendesk.com/api/v2/tickets/2901.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

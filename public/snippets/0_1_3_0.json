@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "긴급 항공권 변경 요청",
+		"description": "개인적인 사정으로 인해 내일로 예정된 서울행 항공편을 오늘로 변경해야 합니다. 가능한 빠른 시간 내에 변경할 수 있는 옵션이 있는지 알려주세요.",
+		"recipient": "customer.service@travelagency.kr",
+		"assignee_id": "korean",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 2301,
+		"due_at": "2024-01-27T09:00:00Z",
+		"external_id": "kr123flightchange",
+		"group_id": 232323,
+		"id": "1day1",
+		"organization_id": "travel-agent",
+		"priority": "urgent",
+		"requester_id": 23200,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 23200,
+		"tags": ["항공권-변경", "긴급", "한국어"],
+		"type": "task",
+		"updated_at": "2024-01-26T10:00:00Z",
+		"url": "https://travelagency.kr.zendesk.com/api/v2/tickets/2301.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

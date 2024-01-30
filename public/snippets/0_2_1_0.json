@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "紧急贷款处理请求",
+		"description": "我需要在一天内完成一笔贷款的申请处理，因为我急需这笔资金来解决一些紧急事务。请问您能帮助我加快审批流程吗？",
+		"recipient": "service@financialservices.cn",
+		"assignee_id": "chinese",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 1701,
+		"due_at": "2024-01-27T09:00:00Z",
+		"external_id": "cn123loanurgent",
+		"group_id": 171717,
+		"id": "1day1",
+		"organization_id": "financial-service",
+		"priority": "urgent",
+		"requester_id": 17100,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 17100,
+		"tags": ["紧急贷款", "快速审批", "中文"],
+		"type": "request",
+		"updated_at": "2024-01-26T10:00:00Z",
+		"url": "https://financialservices.cn.zendesk.com/api/v2/tickets/1701.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "查询账户冻结原因及解冻流程",
+		"description": "我的账户昨天突然被冻结，我需要了解具体原因及如何尽快解冻。鉴于我的财务活动受到了影响，希望能在三天内得到解决。",
+		"recipient": "customer.support@financialservices.cn",
+		"assignee_id": "chinese",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 1801,
+		"due_at": "2024-01-29T09:00:00Z",
+		"external_id": "cn456accountfreeze",
+		"group_id": 181818,
+		"id": "3days1",
+		"organization_id": "financial-service",
+		"priority": "high",
+		"requester_id": 18100,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 18100,
+		"tags": ["账户冻结", "解冻流程", "中文"],
+		"type": "issue",
+		"updated_at": "2024-01-27T10:00:00Z",
+		"url": "https://financialservices.cn.zendesk.com/api/v2/tickets/1801.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

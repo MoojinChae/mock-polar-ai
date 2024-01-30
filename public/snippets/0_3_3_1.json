@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "사용자 맞춤형 기능 개발 요청",
+		"description": "저희 회사는 귀사의 SaaS 도구를 통해 특정 업무 프로세스를 자동화하고자 합니다. 특히, 저희 내부 시스템과의 통합을 위한 맞춤형 기능이 필요한데, 이에 대한 개발 가능성과 예상 소요 시간, 비용을 알고 싶습니다. 3일 내에 상담 및 견적을 받아볼 수 있을까요?",
+		"recipient": "customdev@saastool.kr",
+		"assignee_id": "korean",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 3101,
+		"due_at": "2024-01-29T09:00:00Z",
+		"external_id": "kr234customfeature",
+		"group_id": 313131,
+		"id": "3days1",
+		"organization_id": "saas-tool",
+		"priority": "medium",
+		"requester_id": 31300,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 31300,
+		"tags": ["맞춤형개발", "기능요청", "한국어"],
+		"type": "inquiry",
+		"updated_at": "2024-01-27T10:00:00Z",
+		"url": "https://saastool.kr.zendesk.com/api/v2/tickets/3101.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

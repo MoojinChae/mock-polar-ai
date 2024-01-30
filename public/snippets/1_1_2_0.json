@@ -1,0 +1,41 @@
+[
+	{
+		"type": "conversation",
+		"id": "travel1dayES",
+		"created_at": 1682505600,
+		"updated_at": 1682592000,
+		"user": {
+			"id": "userES1",
+			"name": "Carlos Rodríguez",
+			"email": "carlosrodriguez@example.com",
+			"language_override": "es"
+		},
+		"assignee": {
+			"id": "agentES1",
+			"type": "admin",
+			"name": "María Gómez"
+		},
+		"conversation_message": {
+			"subject": "Consulta Urgente sobre Reserva de Hotel",
+			"body": "Tengo una reserva para este fin de semana en Barcelona, pero necesito cambiar las fechas a la próxima semana. ¿Es posible hacer este cambio de manera urgente?",
+			"attachments": []
+		},
+		"tags": ["reserva-hotel", "cambio-fecha", "urgente"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "Hola Carlos, entiendo tu situación. Voy a verificar la disponibilidad para las nuevas fechas y te confirmaré lo más pronto posible.",
+				"author": {
+					"id": "agentES1",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682512800
+			}
+		]
+	}
+]

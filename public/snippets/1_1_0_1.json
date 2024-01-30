@@ -1,0 +1,80 @@
+[
+	{
+		"type": "conversation",
+		"id": "travel3days1",
+		"created_at": 1682505600,
+		"updated_at": 1682764800,
+		"user": {
+			"id": "user202",
+			"name": "Emily Carter",
+			"email": "emilyc@example.com",
+			"language_override": "en"
+		},
+		"assignee": {
+			"id": "agent302",
+			"type": "admin",
+			"name": "Chris Jordan"
+		},
+		"conversation_message": {
+			"subject": "Urgent Hotel Booking Change Needed",
+			"body": "Due to a sudden change in plans, I need to adjust my hotel booking dates for my upcoming trip to Paris. Can this be arranged quickly?",
+			"attachments": []
+		},
+		"tags": ["hotel-booking", "urgent", "english"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "Hi Emily, we're on it. I'm currently reviewing available options to accommodate your new dates. I'll update you within the next 24 hours.",
+				"author": {
+					"id": "agent302",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682519200
+			}
+		]
+	},
+	{
+		"type": "conversation",
+		"id": "travel3days2",
+		"created_at": 1682592000,
+		"updated_at": 1682851200,
+		"user": {
+			"id": "user303",
+			"name": "Derek Liu",
+			"email": "derekliu@example.com",
+			"language_override": "en"
+		},
+		"assignee": {
+			"id": "agent403",
+			"type": "admin",
+			"name": "Alexa Kim"
+		},
+		"conversation_message": {
+			"subject": "Last-minute Flight Cancellation Policy",
+			"body": "What's the policy for last-minute flight cancellations? I might need to cancel my flight due to personal reasons.",
+			"attachments": []
+		},
+		"tags": ["flight-cancellation", "policy-inquiry", "english"],
+		"status": "open",
+		"priority": "medium",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part2",
+				"part_type": "comment",
+				"body": "Hello Derek, I understand your concern. I'm here to help you through the cancellation process and will provide details on policies and potential refunds.",
+				"author": {
+					"id": "agent403",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682678400
+			}
+		]
+	}
+]

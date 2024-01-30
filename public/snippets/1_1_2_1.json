@@ -1,0 +1,80 @@
+[
+	{
+		"type": "conversation",
+		"id": "travel3daysES1",
+		"created_at": 1682505600,
+		"updated_at": 1682764800,
+		"user": {
+			"id": "userES2",
+			"name": "Ana Martínez",
+			"email": "anamartinez@example.com",
+			"language_override": "es"
+		},
+		"assignee": {
+			"id": "agentES2",
+			"type": "admin",
+			"name": "Jorge Fernández"
+		},
+		"conversation_message": {
+			"subject": "Asistencia con Vuelo Atrasado",
+			"body": "Mi vuelo a Madrid ha sido retrasado y podría perder mi conexión. ¿Pueden ayudarme a encontrar una solución?",
+			"attachments": []
+		},
+		"tags": ["vuelo-atrasado", "asistencia", "conexión"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "Hola Ana, lamentamos los inconvenientes causados por el retraso. Estoy revisando opciones alternativas para tu conexión y te informaré tan pronto como tenga una actualización.",
+				"author": {
+					"id": "agentES2",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682519200
+			}
+		]
+	},
+	{
+		"type": "conversation",
+		"id": "travel3daysES2",
+		"created_at": 1682592000,
+		"updated_at": 1682851200,
+		"user": {
+			"id": "userES3",
+			"name": "Luis García",
+			"email": "luisgarcia@example.com",
+			"language_override": "es"
+		},
+		"assignee": {
+			"id": "agentES3",
+			"type": "admin",
+			"name": "Sofía López"
+		},
+		"conversation_message": {
+			"subject": "Consulta Sobre Paquete Turístico",
+			"body": "Estoy interesado en el paquete turístico a la Costa Amalfitana que vi en su sitio web. ¿Podrían enviarme más información al respecto?",
+			"attachments": []
+		},
+		"tags": ["paquete-turístico", "información", "Costa-Amalfitana"],
+		"status": "open",
+		"priority": "normal",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part2",
+				"part_type": "comment",
+				"body": "Hola Luis, claro que sí. Te enviaré por correo electrónico todos los detalles del paquete turístico a la Costa Amalfitana, incluyendo itinerario, precios y opciones de alojamiento.",
+				"author": {
+					"id": "agentES3",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682678400
+			}
+		]
+	}
+]

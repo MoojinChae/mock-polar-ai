@@ -1,0 +1,41 @@
+[
+	{
+		"type": "conversation",
+		"id": "finServ1dayCN",
+		"created_at": 1682505600,
+		"updated_at": 1682592000,
+		"user": {
+			"id": "userFinCN1",
+			"name": "张伟",
+			"email": "zhangwei@example.com",
+			"language_override": "zh"
+		},
+		"assignee": {
+			"id": "agentFinCN1",
+			"type": "admin",
+			"name": "李婷"
+		},
+		"conversation_message": {
+			"subject": "账户安全问题咨询",
+			"body": "我发现我的账户昨天有异常登录，我担心账户安全，请问你们可以帮助我检查和加强账户安全吗？",
+			"attachments": []
+		},
+		"tags": ["账户安全", "异常登录", "紧急"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "您好张伟，我们非常重视您的账户安全问题。我已经将此情况上报给我们的安全团队，他们将立即进行检查。我们会在24小时内回复您。",
+				"author": {
+					"id": "agentFinCN1",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682512800
+			}
+		]
+	}
+]

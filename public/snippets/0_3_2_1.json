@@ -1,0 +1,27 @@
+[
+	{
+		"subject": "Consulta sobre integración con sistema de gestión",
+		"description": "Estamos evaluando su herramienta SaaS para implementarla en nuestro proceso de gestión empresarial. Nos interesaría saber más sobre las capacidades de integración con sistemas de gestión de proyectos. ¿Podrían proporcionarnos detalles sobre las opciones de integración disponibles y el tiempo estimado para implementarlas? Nuestro objetivo es tomar una decisión en los próximos tres días.",
+		"recipient": "soporte@saastool.es",
+		"assignee_id": "spanish",
+		"created_at": "2024-01-26T09:00:00Z",
+		"custom_status_id": 3201,
+		"due_at": "2024-01-29T09:00:00Z",
+		"external_id": "es789integration",
+		"group_id": 323232,
+		"id": "3days1",
+		"organization_id": "saas-tool",
+		"priority": "medium",
+		"requester_id": 32300,
+		"satisfaction_rating": null,
+		"status": "open",
+		"submitter_id": 32300,
+		"tags": ["integración", "gestión-de-proyectos", "español"],
+		"type": "inquiry",
+		"updated_at": "2024-01-27T10:00:00Z",
+		"url": "https://saastool.es.zendesk.com/api/v2/tickets/3201.json",
+		"via": {
+			"channel": "email"
+		}
+	}
+]

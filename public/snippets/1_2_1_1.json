@@ -1,0 +1,80 @@
+[
+	{
+		"type": "conversation",
+		"id": "finServ3daysCN1",
+		"created_at": 1682505600,
+		"updated_at": 1682764800,
+		"user": {
+			"id": "userFinCN2",
+			"name": "刘强",
+			"email": "liuqiang@example.com",
+			"language_override": "zh"
+		},
+		"assignee": {
+			"id": "agentFinCN2",
+			"type": "admin",
+			"name": "王芳"
+		},
+		"conversation_message": {
+			"subject": "信用卡申请进度咨询",
+			"body": "我上周提交了信用卡申请，想了解一下当前的审批进度。",
+			"attachments": []
+		},
+		"tags": ["信用卡申请", "审批进度", "咨询"],
+		"status": "open",
+		"priority": "normal",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "您好刘强，感谢您的耐心等待。我们正在加快审批进程，预计最迟将在三天内给您一个具体的回复。",
+				"author": {
+					"id": "agentFinCN2",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682519200
+			}
+		]
+	},
+	{
+		"type": "conversation",
+		"id": "finServ3daysCN2",
+		"created_at": 1682592000,
+		"updated_at": 1682851200,
+		"user": {
+			"id": "userFinCN3",
+			"name": "孙悟空",
+			"email": "sunwukong@example.com",
+			"language_override": "zh"
+		},
+		"assignee": {
+			"id": "agentFinCN3",
+			"type": "admin",
+			"name": "赵敏"
+		},
+		"conversation_message": {
+			"subject": "账户冻结紧急处理",
+			"body": "我的账户突然被冻结了，但我没有进行任何异常操作，请问可以尽快帮我处理解冻吗？",
+			"attachments": []
+		},
+		"tags": ["账户冻结", "紧急处理", "客户服务"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part2",
+				"part_type": "comment",
+				"body": "孙悟空您好，我们已经注意到您的账户问题，目前正在紧急审查中。我们会尽快完成审查，并在三天内通知您解冻进度。",
+				"author": {
+					"id": "agentFinCN3",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682678400
+			}
+		]
+	}
+]
