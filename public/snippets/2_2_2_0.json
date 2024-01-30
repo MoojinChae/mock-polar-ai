@@ -1,0 +1,9 @@
+{
+	"subject": "Problema con el Servicio Financiero",
+	"sender": "cliente@email.es",
+	"recipient": "soporte@serviciofinanciero.es",
+	"timestamp": "2024-01-30T11:15:00Z",
+	"content": {
+		"body": "Estimado Equipo de Soporte al Cliente,\n\nEspero que este correo electrónico los encuentre bien. He estado utilizando su servicio financiero para mis inversiones y he encontrado un problema. Aquí están los detalles del problema:\n\nID de Cuenta: [ID de Cuenta]\nTipo de Servicio: [Tipo de Servicio]\nDescripción del Problema: [Descripción del Problema]\n\nEste problema está afectando mis transacciones financieras y necesito una solución rápida. Por favor, díganme cómo podemos abordar este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente]\n[Correo Electrónico del Cliente]"
+	}
+}

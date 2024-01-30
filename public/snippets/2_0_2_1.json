@@ -1,0 +1,29 @@
+[
+	{
+		"subject": "Problema con mi Pedido - Correo 1",
+		"sender": "cliente1@email.com",
+		"recipient": "soporte@ecommerce.com",
+		"timestamp": "2024-01-28T10:30:00Z",
+		"content": {
+			"body": "Estimado equipo de soporte,\n\nEspero que este correo electrónico les encuentre bien. Recientemente realicé un pedido en su plataforma de comercio electrónico y estoy enfrentando un problema con él. A continuación, los detalles del pedido:\n\nNúmero de Pedido: [Número de Pedido1]\nFecha de Compra: [Fecha de Compra1]\nProductos Solicitados: [Lista de Productos1]\nMonto Total: [Monto Total1]\n\nEl problema que he encontrado es [Descripción del Problema del Cliente1]. Esto me ha causado cierta inconveniencia y estoy buscando una solución lo más pronto posible.\n\nAprecio mucho su pronta atención a este asunto. Por favor, háganme saber cómo podemos resolver este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente1]\n[Correo Electrónico del Cliente1]"
+		}
+	},
+	{
+		"subject": "Problema con mi Pedido - Correo 2",
+		"sender": "cliente2@email.com",
+		"recipient": "soporte@ecommerce.com",
+		"timestamp": "2024-01-29T14:45:00Z",
+		"content": {
+			"body": "Estimado equipo de soporte,\n\nEspero que este correo electrónico les encuentre bien. Recientemente realicé un pedido en su plataforma de comercio electrónico y estoy enfrentando un problema con él. A continuación, los detalles del pedido:\n\nNúmero de Pedido: [Número de Pedido2]\nFecha de Compra: [Fecha de Compra2]\nProductos Solicitados: [Lista de Productos2]\nMonto Total: [Monto Total2]\n\nEl problema que he encontrado es [Descripción del Problema del Cliente2]. Esto me ha causado cierta inconveniencia y estoy buscando una solución lo más pronto posible.\n\nAprecio mucho su pronta atención a este asunto. Por favor, háganme saber cómo podemos resolver este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente2]\n[Correo Electrónico del Cliente2]"
+		}
+	},
+	{
+		"subject": "Problema con mi Pedido - Correo 3",
+		"sender": "cliente3@email.com",
+		"recipient": "soporte@ecommerce.com",
+		"timestamp": "2024-01-30T09:15:00Z",
+		"content": {
+			"body": "Estimado equipo de soporte,\n\nEspero que este correo electrónico les encuentre bien. Recientemente realicé un pedido en su plataforma de comercio electrónico y estoy enfrentando un problema con él. A continuación, los detalles del pedido:\n\nNúmero de Pedido: [Número de Pedido3]\nFecha de Compra: [Fecha de Compra3]\nProductos Solicitados: [Lista de Productos3]\nMonto Total: [Monto Total3]\n\nEl problema que he encontrado es [Descripción del Problema del Cliente3]. Esto me ha causado cierta inconveniencia y estoy buscando una solución lo más pronto posible.\n\nAprecio mucho su pronta atención a este asunto. Por favor, háganme saber cómo podemos resolver este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente3]\n[Correo Electrónico del Cliente3]"
+		}
+	}
+]

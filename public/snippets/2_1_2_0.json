@@ -1,0 +1,9 @@
+{
+	"subject": "Problema con la Reserva de Vacaciones",
+	"sender": "cliente@email.com",
+	"recipient": "soporte@agenciadeviajes.com",
+	"timestamp": "2024-01-30T17:10:00Z",
+	"content": {
+		"body": "Estimado Equipo de Soporte al Cliente,\n\nEspero que este correo electrónico los encuentre bien. Recientemente reservé un paquete de vacaciones a través de su agencia de viajes y estoy experimentando un problema con él. Aquí están los detalles de mi reserva:\n\nNúmero de Referencia de la Reserva: [Número de Referencia de la Reserva]\nFecha de Reserva: [Fecha de Reserva]\nDestino: [Destino]\nTipo de Paquete: [Tipo de Paquete]\nCosto Total: [Costo Total]\n\nEl problema que estoy enfrentando es [Descripción del Problema del Cliente]. Esto me ha causado inconvenientes y estoy buscando una pronta solución.\n\nAgradecería mucho su rápida atención a este asunto. Por favor, díganme cómo podemos resolver este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente]\n[Correo Electrónico del Cliente]"
+	}
+}

@@ -1,0 +1,29 @@
+[
+	{
+		"subject": "Problema con el Servicio Financiero - Correo 1",
+		"sender": "cliente1@email.es",
+		"recipient": "soporte@serviciofinanciero.es",
+		"timestamp": "2024-01-28T17:30:00Z",
+		"content": {
+			"body": "Estimado Equipo de Soporte al Cliente,\n\nEspero que este correo electrónico los encuentre bien. He estado utilizando su servicio financiero para mis inversiones y he encontrado un problema. Aquí están los detalles del problema:\n\nID de Cuenta: [ID de Cuenta1]\nTipo de Servicio: [Tipo de Servicio1]\nDescripción del Problema: [Descripción del Problema1]\n\nEste problema está afectando mis transacciones financieras y necesito una solución rápida. Por favor, díganme cómo podemos abordar este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente1]\n[Correo Electrónico del Cliente1]"
+		}
+	},
+	{
+		"subject": "Problema con el Servicio Financiero - Correo 2",
+		"sender": "cliente2@email.es",
+		"recipient": "soporte@serviciofinanciero.es",
+		"timestamp": "2024-01-29T13:45:00Z",
+		"content": {
+			"body": "Estimado Equipo de Soporte al Cliente,\n\nEspero que este correo electrónico los encuentre bien. He estado utilizando su servicio financiero para mis inversiones y he encontrado un problema. Aquí están los detalles del problema:\n\nID de Cuenta: [ID de Cuenta2]\nTipo de Servicio: [Tipo de Servicio2]\nDescripción del Problema: [Descripción del Problema2]\n\nEste problema está afectando mis transacciones financieras y necesito una solución rápida. Por favor, díganme cómo podemos abordar este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente2]\n[Correo Electrónico del Cliente2]"
+		}
+	},
+	{
+		"subject": "Problema con el Servicio Financiero - Correo 3",
+		"sender": "cliente3@email.es",
+		"recipient": "soporte@serviciofinanciero.es",
+		"timestamp": "2024-01-30T09:50:00Z",
+		"content": {
+			"body": "Estimado Equipo de Soporte al Cliente,\n\nEspero que este correo electrónico los encuentre bien. He estado utilizando su servicio financiero para mis inversiones y he encontrado un problema. Aquí están los detalles del problema:\n\nID de Cuenta: [ID de Cuenta3]\nTipo de Servicio: [Tipo de Servicio3]\nDescripción del Problema: [Descripción del Problema3]\n\nEste problema está afectando mis transacciones financieras y necesito una solución rápida. Por favor, díganme cómo podemos abordar este problema o si necesitan información adicional de mi parte.\n\nGracias por su ayuda.\n\nAtentamente,\n[Nombre del Cliente3]\n[Correo Electrónico del Cliente3]"
+		}
+	}
+]

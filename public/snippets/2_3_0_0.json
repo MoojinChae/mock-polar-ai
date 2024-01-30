@@ -1,0 +1,9 @@
+{
+	"subject": "Issue with SaaS Tool",
+	"sender": "customer@email.com",
+	"recipient": "support@saastool.com",
+	"timestamp": "2024-01-30T10:20:00Z",
+	"content": {
+		"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your SaaS tool for my business, and I'm encountering an issue. Here are the details of the problem:\n\nUser ID: [User ID]\nAccount Name: [Account Name]\nTool Version: [Tool Version]\nIssue Description: [Issue Description]\n\nThis issue is causing disruptions in my work, and I need a prompt resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name]\n[Customer Email]"
+	}
+}

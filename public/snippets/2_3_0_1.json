@@ -1,0 +1,29 @@
+[
+	{
+		"subject": "Issue with SaaS Tool - Email 1",
+		"sender": "customer1@email.com",
+		"recipient": "support@saastool.com",
+		"timestamp": "2024-01-28T14:45:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your SaaS tool for my business, and I'm encountering an issue. Here are the details of the problem:\n\nUser ID: [User ID1]\nAccount Name: [Account Name1]\nTool Version: [Tool Version1]\nIssue Description: [Issue Description1]\n\nThis issue is causing disruptions in my work, and I need a prompt resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name1]\n[Customer Email1]"
+		}
+	},
+	{
+		"subject": "Issue with SaaS Tool - Email 2",
+		"sender": "customer2@email.com",
+		"recipient": "support@saastool.com",
+		"timestamp": "2024-01-29T12:30:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your SaaS tool for my business, and I'm encountering an issue. Here are the details of the problem:\n\nUser ID: [User ID2]\nAccount Name: [Account Name2]\nTool Version: [Tool Version2]\nIssue Description: [Issue Description2]\n\nThis issue is causing disruptions in my work, and I need a prompt resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name2]\n[Customer Email2]"
+		}
+	},
+	{
+		"subject": "Issue with SaaS Tool - Email 3",
+		"sender": "customer3@email.com",
+		"recipient": "support@saastool.com",
+		"timestamp": "2024-01-30T09:15:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your SaaS tool for my business, and I'm encountering an issue. Here are the details of the problem:\n\nUser ID: [User ID3]\nAccount Name: [Account Name3]\nTool Version: [Tool Version3]\nIssue Description: [Issue Description3]\n\nThis issue is causing disruptions in my work, and I need a prompt resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name3]\n[Customer Email3]"
+		}
+	}
+]

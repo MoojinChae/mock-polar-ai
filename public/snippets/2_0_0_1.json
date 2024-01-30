@@ -1,0 +1,29 @@
+[
+	{
+		"subject": "Issue with Recent Order - Email 1",
+		"sender": "customer1@email.com",
+		"recipient": "support@ecommerce.com",
+		"timestamp": "2024-01-28T15:30:00Z",
+		"content": {
+			"body": "Dear [Customer Support],\n\nI hope this email finds you well. I recently placed an order on your E-commerce platform, and I'm facing an issue with it. Here are the details:\n\nOrder Number: [Order Number 1]\nDate of Purchase: [Date 1]\nItems Ordered: [List of Items 1]\nTotal Amount: [Total Amount 1]\n\nThe problem I encountered is [Customer's description of the issue 1]. This has caused me some inconvenience, and I'm looking for a resolution as soon as possible.\n\nI appreciate your prompt attention to this matter. Please let me know how we can resolve this issue or if you require any additional information from my end.\n\nThank you for your assistance.\n\nSincerely,\n[Customer Name 1]\n[Customer Email 1]"
+		}
+	},
+	{
+		"subject": "Issue with Recent Order - Email 2",
+		"sender": "customer2@email.com",
+		"recipient": "support@ecommerce.com",
+		"timestamp": "2024-01-29T14:45:00Z",
+		"content": {
+			"body": "Dear [Customer Support],\n\nI hope this email finds you well. I recently placed an order on your E-commerce platform, and I'm facing an issue with it. Here are the details:\n\nOrder Number: [Order Number 2]\nDate of Purchase: [Date 2]\nItems Ordered: [List of Items 2]\nTotal Amount: [Total Amount 2]\n\nThe problem I encountered is [Customer's description of the issue 2]. This has caused me some inconvenience, and I'm looking for a resolution as soon as possible.\n\nI appreciate your prompt attention to this matter. Please let me know how we can resolve this issue or if you require any additional information from my end.\n\nThank you for your assistance.\n\nSincerely,\n[Customer Name 2]\n[Customer Email 2]"
+		}
+	},
+	{
+		"subject": "Issue with Recent Order - Email 3",
+		"sender": "customer3@email.com",
+		"recipient": "support@ecommerce.com",
+		"timestamp": "2024-01-30T09:15:00Z",
+		"content": {
+			"body": "Dear [Customer Support],\n\nI hope this email finds you well. I recently placed an order on your E-commerce platform, and I'm facing an issue with it. Here are the details:\n\nOrder Number: [Order Number 3]\nDate of Purchase: [Date 3]\nItems Ordered: [List of Items 3]\nTotal Amount: [Total Amount 3]\n\nThe problem I encountered is [Customer's description of the issue 3]. This has caused me some inconvenience, and I'm looking for a resolution as soon as possible.\n\nI appreciate your prompt attention to this matter. Please let me know how we can resolve this issue or if you require any additional information from my end.\n\nThank you for your assistance.\n\nSincerely,\n[Customer Name 3]\n[Customer Email 3]"
+		}
+	}
+]

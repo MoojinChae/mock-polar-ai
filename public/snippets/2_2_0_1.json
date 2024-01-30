@@ -1,0 +1,29 @@
+[
+	{
+		"subject": "Issue with Financial Service - Email 1",
+		"sender": "customer1@email.com",
+		"recipient": "support@financialservice.com",
+		"timestamp": "2024-01-28T15:45:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your financial service for my investments, and I've encountered an issue. Here are the details of the problem:\n\nAccount ID: [Account ID1]\nService Type: [Service Type1]\nIssue Description: [Issue Description1]\n\nThis issue is affecting my financial transactions, and I need a quick resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name1]\n[Customer Email1]"
+		}
+	},
+	{
+		"subject": "Issue with Financial Service - Email 2",
+		"sender": "customer2@email.com",
+		"recipient": "support@financialservice.com",
+		"timestamp": "2024-01-29T11:20:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your financial service for my investments, and I've encountered an issue. Here are the details of the problem:\n\nAccount ID: [Account ID2]\nService Type: [Service Type2]\nIssue Description: [Issue Description2]\n\nThis issue is affecting my financial transactions, and I need a quick resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name2]\n[Customer Email2]"
+		}
+	},
+	{
+		"subject": "Issue with Financial Service - Email 3",
+		"sender": "customer3@email.com",
+		"recipient": "support@financialservice.com",
+		"timestamp": "2024-01-30T09:10:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I've been using your financial service for my investments, and I've encountered an issue. Here are the details of the problem:\n\nAccount ID: [Account ID3]\nService Type: [Service Type3]\nIssue Description: [Issue Description3]\n\nThis issue is affecting my financial transactions, and I need a quick resolution. Please let me know how we can address this problem or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name3]\n[Customer Email3]"
+		}
+	}
+]

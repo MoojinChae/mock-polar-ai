@@ -1,0 +1,29 @@
+[
+	{
+		"subject": "Issue with Vacation Booking - Email 1",
+		"sender": "customer1@email.com",
+		"recipient": "support@travelagency.com",
+		"timestamp": "2024-01-28T11:30:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I recently booked a vacation package through your travel agency, and I'm experiencing an issue with it. Here are the details of my booking:\n\nBooking Reference Number: [Booking Reference Number1]\nBooking Date: [Booking Date1]\nDestination: [Destination1]\nPackage Type: [Package Type1]\nTotal Cost: [Total Cost1]\n\nThe problem I'm facing is [Customer Issue Description1]. This has caused me inconvenience, and I'm looking for a prompt resolution.\n\nI would greatly appreciate your quick attention to this matter. Please let me know how we can resolve this issue or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name1]\n[Customer Email1]"
+		}
+	},
+	{
+		"subject": "Issue with Vacation Booking - Email 2",
+		"sender": "customer2@email.com",
+		"recipient": "support@travelagency.com",
+		"timestamp": "2024-01-29T15:15:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I recently booked a vacation package through your travel agency, and I'm experiencing an issue with it. Here are the details of my booking:\n\nBooking Reference Number: [Booking Reference Number2]\nBooking Date: [Booking Date2]\nDestination: [Destination2]\nPackage Type: [Package Type2]\nTotal Cost: [Total Cost2]\n\nThe problem I'm facing is [Customer Issue Description2]. This has caused me inconvenience, and I'm looking for a prompt resolution.\n\nI would greatly appreciate your quick attention to this matter. Please let me know how we can resolve this issue or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name2]\n[Customer Email2]"
+		}
+	},
+	{
+		"subject": "Issue with Vacation Booking - Email 3",
+		"sender": "customer3@email.com",
+		"recipient": "support@travelagency.com",
+		"timestamp": "2024-01-30T09:45:00Z",
+		"content": {
+			"body": "Dear Customer Support Team,\n\nI hope this email finds you well. I recently booked a vacation package through your travel agency, and I'm experiencing an issue with it. Here are the details of my booking:\n\nBooking Reference Number: [Booking Reference Number3]\nBooking Date: [Booking Date3]\nDestination: [Destination3]\nPackage Type: [Package Type3]\nTotal Cost: [Total Cost3]\n\nThe problem I'm facing is [Customer Issue Description3]. This has caused me inconvenience, and I'm looking for a prompt resolution.\n\nI would greatly appreciate your quick attention to this matter. Please let me know how we can resolve this issue or if you require any additional information from my end.\n\nThank you for your assistance.\n\nBest regards,\n[Customer Name3]\n[Customer Email3]"
+		}
+	}
+]

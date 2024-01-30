@@ -1,0 +1,9 @@
+{
+	"subject": "Problema con la herramienta SaaS",
+	"sender": "cliente@email.es",
+	"recipient": "soporte@saastool.es",
+	"timestamp": "2024-01-30T09:15:00Z",
+	"content": {
+		"body": "Estimado equipo de servicio al cliente,\n\nEspero que este correo electrónico les llegue correctamente. He estado utilizando su herramienta SaaS durante un tiempo, pero recientemente he enfrentado un problema. Aquí están los detalles del problema:\n\nID de cuenta: [ID de cuenta]\nTipo de herramienta: [Tipo de herramienta]\nDescripción del problema: [Descripción del problema]\n\nEste problema está afectando mi productividad y necesito una solución rápida. Por favor, díganme cómo puedo resolver este problema o si necesitan más información de mi parte.\n\nAgradezco su ayuda.\n\nSaludos cordiales,\n[Nombre del cliente]\n[Correo electrónico del cliente]"
+	}
+}

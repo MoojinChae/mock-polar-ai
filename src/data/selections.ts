@@ -6,7 +6,7 @@ export const outputFormats: Array<Categories> = [
   { name: 'Json (Zendesk)' },
   { name: 'Json (Intercom)' },
   { name: 'Email' },
-  { name: 'Messenger' },
+  //{ name: 'Messenger' }, // TODO: add back with the full data snippet.
 ];
 
 export const industries: Array<Categories> = [
