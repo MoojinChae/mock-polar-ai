@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { track } from '@vercel/analytics';
 import {
   Button,
   FormControl,
@@ -19,6 +18,7 @@ import {
   timeWindows,
 } from '@/data/selections';
 import { GetSnippets } from '@/data/snipppets';
+import { track } from '@vercel/analytics';
 
 import { Background } from '../background/Background';
 import { HeroTitle } from '../hero/HeroTitle';
