@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "123456789",
+		"email": "user@mocksaas.com",
+		"name": "John Smith",
+		"created_at": "2024-01-29T10:30:45Z",
+		"updated_at": "2024-01-30T08:15:00Z",
+		"last_seen_at": "2024-01-30T08:15:00Z",
+		"custom_attributes": {
+			"industry": "SaaS Tool",
+			"language": "English"
+		},
+		"segments": [
+			{
+				"id": "segment123",
+				"name": "Active Users"
+			}
+		],
+		"location_data": {
+			"city_name": "New York",
+			"country_name": "United States"
+		},
+		"session_count": 5,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User123",
+		"tags": ["SaaS Tool", "English", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T11:45:15Z",
+				"message": "I need assistance with setting up my account in your SaaS tool. Can you help?",
+				"status": "open",
+				"assigned_to": "support_agent123"
+			}
+		]
+	}
+]

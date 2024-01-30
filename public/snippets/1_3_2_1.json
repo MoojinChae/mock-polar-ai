@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "456789012",
+		"email": "usuario2@mocksaas.es",
+		"name": "Carlos García",
+		"created_at": "2024-01-27T13:30:45Z",
+		"updated_at": "2024-01-30T12:15:00Z",
+		"last_seen_at": "2024-01-30T12:15:00Z",
+		"custom_attributes": {
+			"industry": "SaaS Tool",
+			"language": "Spanish"
+		},
+		"segments": [
+			{
+				"id": "segment456",
+				"name": "Regular Users"
+			}
+		],
+		"location_data": {
+			"city_name": "Barcelona",
+			"country_name": "Spain"
+		},
+		"session_count": 5,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "Usuario456",
+		"tags": ["SaaS Tool", "Spanish", "3 Days"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-28T14:20:30Z",
+				"message": "Tengo algunas preguntas sobre su herramienta SaaS. ¿Pueden ayudarme con ello?",
+				"status": "open",
+				"assigned_to": "support_agent456"
+			}
+		]
+	}
+]

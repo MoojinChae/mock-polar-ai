@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "456789012",
+		"email": "customer@mockecommerce.kr",
+		"name": "Ji-Yeon Park",
+		"created_at": "2024-01-29T17:30:20Z",
+		"updated_at": "2024-01-30T12:45:00Z",
+		"last_seen_at": "2024-01-30T12:45:00Z",
+		"custom_attributes": {
+			"industry": "E-Commerce",
+			"language": "Korean"
+		},
+		"segments": [
+			{
+				"id": "segment789",
+				"name": "Frequent Shoppers"
+			}
+		],
+		"location_data": {
+			"city_name": "Seoul",
+			"country_name": "South Korea"
+		},
+		"session_count": 4,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User789",
+		"tags": ["E-Commerce", "Korean", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T18:15:30Z",
+				"message": "내 최근 주문에 문제가 있어서 도움이 필요합니다. 지금 도와주실 수 있을까요?",
+				"status": "open",
+				"assigned_to": "support_agent789"
+			}
+		]
+	}
+]

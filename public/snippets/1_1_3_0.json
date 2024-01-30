@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "123456789",
+		"email": "traveler@mocktravel.kr",
+		"name": "Hye-Jin Lee",
+		"created_at": "2024-01-29T16:05:30Z",
+		"updated_at": "2024-01-30T14:00:00Z",
+		"last_seen_at": "2024-01-30T14:00:00Z",
+		"custom_attributes": {
+			"industry": "Travel Agent",
+			"language": "Korean"
+		},
+		"segments": [
+			{
+				"id": "segment123",
+				"name": "Frequent Travelers"
+			}
+		],
+		"location_data": {
+			"city_name": "Seoul",
+			"country_name": "South Korea"
+		},
+		"session_count": 4,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User123",
+		"tags": ["Travel Agent", "Korean", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T17:20:45Z",
+				"message": "저희 가족의 여행을 계획 중인데, 도움이 필요합니다. 어떻게 도와주실 수 있나요?",
+				"status": "open",
+				"assigned_to": "travel_agent123"
+			}
+		]
+	}
+]

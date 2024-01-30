@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "987654321",
+		"email": "customer2@mockecommerce.kr",
+		"name": "Seo-Joon Kim",
+		"created_at": "2024-01-27T14:50:45Z",
+		"updated_at": "2024-01-30T13:20:00Z",
+		"last_seen_at": "2024-01-30T13:20:00Z",
+		"custom_attributes": {
+			"industry": "E-Commerce",
+			"language": "Korean"
+		},
+		"segments": [
+			{
+				"id": "segment456",
+				"name": "Regular Shoppers"
+			}
+		],
+		"location_data": {
+			"city_name": "Busan",
+			"country_name": "South Korea"
+		},
+		"session_count": 6,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User456",
+		"tags": ["E-Commerce", "Korean", "3 Days"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-28T12:35:15Z",
+				"message": "최근 주문 배송이 지연되었습니다. 언제 제품을 받을 수 있을까요?",
+				"status": "open",
+				"assigned_to": "support_agent456"
+			}
+		]
+	}
+]

@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "345678901",
+		"email": "usuario@mocksaas.es",
+		"name": "Elena Rodríguez",
+		"created_at": "2024-01-29T10:45:30Z",
+		"updated_at": "2024-01-30T09:30:00Z",
+		"last_seen_at": "2024-01-30T09:30:00Z",
+		"custom_attributes": {
+			"industry": "SaaS Tool",
+			"language": "Spanish"
+		},
+		"segments": [
+			{
+				"id": "segment345",
+				"name": "Active Users"
+			}
+		],
+		"location_data": {
+			"city_name": "Madrid",
+			"country_name": "Spain"
+		},
+		"session_count": 4,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "Usuario345",
+		"tags": ["SaaS Tool", "Spanish", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T11:55:15Z",
+				"message": "Necesito ayuda con una consulta en su herramienta SaaS. ¿Pueden asistirme?",
+				"status": "open",
+				"assigned_to": "support_agent345"
+			}
+		]
+	}
+]

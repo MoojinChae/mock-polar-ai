@@ -1,0 +1,31 @@
+[
+	{
+		"subject": "支付问题反馈",
+		"description": "我对贵公司的在线购物体验感到非常不满。我尝试购买一些电子产品，但在支付过程中遇到了问题。我的交易多次被拒绝，尽管我使用的是有效的信用卡。这给我造成了极大的不便。我希望贵公司能立即采取措施解决这个问题。",
+		"recipient": "service@mockecommerce.cn",
+		"assignee_id": "language",
+		"created_at": "2024-01-29T14:22:47Z",
+		"custom_status_id": 456,
+		"due_at": "2024-01-30T14:22:47Z",
+		"external_id": "def789456",
+		"group_id": 78429,
+		"id": "timeWindow",
+		"organization_id": "industry",
+		"priority": "urgent",
+		"requester_id": 2468,
+		"satisfaction_rating": {
+			"comment": "对处理结果非常满意。",
+			"id": 25,
+			"score": "excellent"
+		},
+		"status": "pending",
+		"submitter_id": 2469,
+		"tags": ["online_shopping", "payment_issue"],
+		"type": "problem",
+		"updated_at": "2024-01-30T00:00:00Z",
+		"url": "https://mockecommerce.zendesk.com/api/v2/tickets/2.json",
+		"via": {
+			"channel": "web"
+		}
+	}
+]

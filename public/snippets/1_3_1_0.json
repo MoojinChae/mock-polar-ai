@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "987654321",
+		"email": "user2@mocksaas.cn",
+		"name": "Li Wei",
+		"created_at": "2024-01-29T12:20:30Z",
+		"updated_at": "2024-01-30T09:50:00Z",
+		"last_seen_at": "2024-01-30T09:50:00Z",
+		"custom_attributes": {
+			"industry": "SaaS Tool",
+			"language": "Chinese"
+		},
+		"segments": [
+			{
+				"id": "segment456",
+				"name": "Active Users"
+			}
+		],
+		"location_data": {
+			"city_name": "Shanghai",
+			"country_name": "China"
+		},
+		"session_count": 6,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User456",
+		"tags": ["SaaS Tool", "Chinese", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T13:35:45Z",
+				"message": "我需要帮助设置我的SaaS工具账户。你们能帮助我吗？",
+				"status": "open",
+				"assigned_to": "support_agent456"
+			}
+		]
+	}
+]

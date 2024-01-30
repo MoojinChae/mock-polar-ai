@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "987654321",
+		"email": "client2@mockfinancial.kr",
+		"name": "Hyun-Joon Kim",
+		"created_at": "2024-01-29T15:20:30Z",
+		"updated_at": "2024-01-30T14:10:00Z",
+		"last_seen_at": "2024-01-30T14:10:00Z",
+		"custom_attributes": {
+			"industry": "Financial Service",
+			"language": "Korean"
+		},
+		"segments": [
+			{
+				"id": "segment456",
+				"name": "Regular Clients"
+			}
+		],
+		"location_data": {
+			"city_name": "Seoul",
+			"country_name": "South Korea"
+		},
+		"session_count": 5,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User456",
+		"tags": ["Financial Service", "Korean", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T16:45:15Z",
+				"message": "금융 문의 사항이 있어서 연락 드렸습니다. 빠른 답변 부탁드립니다.",
+				"status": "open",
+				"assigned_to": "financial_agent456"
+			}
+		]
+	}
+]

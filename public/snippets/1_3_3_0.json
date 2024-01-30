@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "234567890",
+		"email": "user@mocksaas.kr",
+		"name": "Ji-Hoon Park",
+		"created_at": "2024-01-29T11:15:30Z",
+		"updated_at": "2024-01-30T10:00:00Z",
+		"last_seen_at": "2024-01-30T10:00:00Z",
+		"custom_attributes": {
+			"industry": "SaaS Tool",
+			"language": "Korean"
+		},
+		"segments": [
+			{
+				"id": "segment234",
+				"name": "Active Users"
+			}
+		],
+		"location_data": {
+			"city_name": "Seoul",
+			"country_name": "South Korea"
+		},
+		"session_count": 5,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "User234",
+		"tags": ["SaaS Tool", "Korean", "1 Day"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-29T12:30:45Z",
+				"message": "저희 회사의 SaaS 도구에 대해 궁금한 점이 있습니다. 도움을 주실 수 있나요?",
+				"status": "open",
+				"assigned_to": "support_agent234"
+			}
+		]
+	}
+]

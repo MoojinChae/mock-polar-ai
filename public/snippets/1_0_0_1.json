@@ -1,0 +1,80 @@
+[
+	{
+		"type": "conversation",
+		"id": "ecom3days1",
+		"created_at": 1682505600,
+		"updated_at": 1682764800,
+		"user": {
+			"id": "userEcom1",
+			"name": "Emily Johnson",
+			"email": "emilyj@example.com",
+			"language_override": "en"
+		},
+		"assignee": {
+			"id": "agentEcom1",
+			"type": "admin",
+			"name": "Alex Smith"
+		},
+		"conversation_message": {
+			"subject": "Order Delay Inquiry",
+			"body": "I placed an order three days ago (Order #12345), and it still hasn't shipped. Could you please update me on the status? I need the items by the end of this week.",
+			"attachments": []
+		},
+		"tags": ["order-delay", "shipment-status", "urgent"],
+		"status": "open",
+		"priority": "high",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part1",
+				"part_type": "comment",
+				"body": "Hi Emily, we're sorry for the delay. I've checked your order, and it's scheduled for dispatch today. You'll receive a tracking number shortly. Thank you for your patience.",
+				"author": {
+					"id": "agentEcom1",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682519200
+			}
+		]
+	},
+	{
+		"type": "conversation",
+		"id": "ecom3days2",
+		"created_at": 1682592000,
+		"updated_at": 1682851200,
+		"user": {
+			"id": "userEcom2",
+			"name": "Michael Brown",
+			"email": "michaelb@example.com",
+			"language_override": "en"
+		},
+		"assignee": {
+			"id": "agentEcom2",
+			"type": "admin",
+			"name": "Sarah Lee"
+		},
+		"conversation_message": {
+			"subject": "Return Process Question",
+			"body": "I received my order yesterday, but one of the items is not what I expected. Can you guide me through the return process?",
+			"attachments": []
+		},
+		"tags": ["returns", "customer-service"],
+		"status": "open",
+		"priority": "medium",
+		"rating": null,
+		"parts": [
+			{
+				"id": "part2",
+				"part_type": "comment",
+				"body": "Hello Michael, I'm here to help. Please provide me with the order number and the item you wish to return. I'll send you the return instructions and process a return authorization for you.",
+				"author": {
+					"id": "agentEcom2",
+					"type": "admin"
+				},
+				"attachments": [],
+				"created_at": 1682678400
+			}
+		]
+	}
+]

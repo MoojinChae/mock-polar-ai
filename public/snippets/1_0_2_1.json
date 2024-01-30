@@ -1,0 +1,37 @@
+[
+	{
+		"user_id": "987654321",
+		"email": "cliente2@mockecommerce.es",
+		"name": "Maria Rodríguez",
+		"created_at": "2024-01-27T15:45:10Z",
+		"updated_at": "2024-01-30T10:15:00Z",
+		"last_seen_at": "2024-01-30T10:15:00Z",
+		"custom_attributes": {
+			"industry": "E-Commerce",
+			"language": "Spanish"
+		},
+		"segments": [
+			{
+				"id": "segment456",
+				"name": "Regular Customers"
+			}
+		],
+		"location_data": {
+			"city_name": "Barcelona",
+			"country_name": "Spain"
+		},
+		"session_count": 3,
+		"unsubscribed_from_emails": false,
+		"pseudonym": "Usuario456",
+		"tags": ["E-Commerce", "Spanish", "3 Days"],
+		"interactions": [
+			{
+				"type": "chat",
+				"created_at": "2024-01-28T11:20:45Z",
+				"message": "Necesito ayuda con un problema de pago en mi último pedido. ¿Pueden ayudarme?",
+				"status": "open",
+				"assigned_to": "support_agent456"
+			}
+		]
+	}
+]
