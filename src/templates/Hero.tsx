@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { track } from '@vercel/analytics';
 import {
   Button,
   FormControl,
@@ -25,7 +26,6 @@ import { ContactUs } from '../layout/ContactUs';
 import { Section } from '../layout/Section';
 import { CodeSnippet } from './CodeSnippet';
 import { Logo } from './Logo';
-import { track } from '@vercel/analytics';
 
 const Hero = () => {
   const [outputFormat, setOutputFormat] = React.useState('');
